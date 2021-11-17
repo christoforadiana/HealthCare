@@ -23,11 +23,206 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tips Diet"
+        android:layout_gravity="center"
+        android:textColor="#5e5e5e"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"/>
+
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
         app:srcCompat="@drawable/tipsdiet" />
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Makan dengan perlahan"
+                android:textColor="#5e5e5e"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Janet Zinn mengatakan makan perlahan dapat memungkinkan kita untuk lebih menikmati makanan dan membuat kita lebih cepat kenyang."
+                android:textColor="#5e5e5e"
+                android:textSize="15dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Mencatat makanan dan minuman yang diasup"
+                android:textColor="#5e5e5e"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Christine King, mengatakan bahwa mencatat makanan dan minuman yang kita konsumsi efektif untuk membantu menurunkan berat badan dan menjadi bagian dari cara diet sehat."
+                android:textColor="#5e5e5e"
+                android:textSize="15dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Lengkapi diet sehat dengan banyak bergerak"
+                android:textColor="#5e5e5e"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menurut Medical News Today bahwa pelacakan aktivitas fisik yang konsisten dapat membantu menurunkan berat badan."
+                android:textColor="#5e5e5e"
+                android:textSize="15dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Tidak melewatkan waktu makan"
+                android:textColor="#5e5e5e"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Angrla Lemond mengatakan tubuh memerlukan energi. Melewatkan makan akan membuat kita rentan terhadap perilaku makan berlebihan serta lebih berisiko kekurangan nutrisi."
+                android:textColor="#5e5e5e"
+                android:textSize="15dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Minum air putih dalam jumlah cukup"
+                android:textColor="#5e5e5e"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penelitian membuktikan bahwa orang-orang yang minum dua gelas sebelum makan dapat menurunkan berat badan lebih banyak daripada yang tidak."
+                android:textColor="#5e5e5e"
+                android:textSize="15dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Hindari minuman tinggi kalori"
+                android:textColor="#5e5e5e"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mengurangi asupan minuman tinggi gula bisa membantu menurunkan berat badan, bahkan sekalipun kita hanya menguranginya secara bertahap."
+                android:textColor="#5e5e5e"
+                android:textSize="15dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Sarapan protein untuk diet sehat"
+                android:textColor="#5e5e5e"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Protein dapat meregulasi hormon napsu makan dan membuat kita merasa kenyang lebih lama."
+                android:textColor="#5e5e5e"
+                android:textSize="15dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Perbanyak makan serat"
+                android:textColor="#5e5e5e"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Memperbanyak konsumsi sumber serat dapat meningkatkan perasaan kenyang, yang pada akhirnya lebih mudah membantu menurunkan berat badan dengan pola diet sehat."
+                android:textColor="#5e5e5e"
+                android:textSize="15dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Kurangi beli makanan di luar demi sukses diet sehat"
+                android:textColor="#5e5e5e"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sebuah studi Journal of Academy of Nutrition and Dietetics menemukan bahwa rata-rata makanan di restoran mengandung 1.000 kalori lebih banyak daripada makanan yang dimasak sendiri di rumah, serta tinggi sodium dan lemak."
+                android:textColor="#5e5e5e"
+                android:textSize="15dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Makan dengan piring kecil"
+                android:textColor="#5e5e5e"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:text="Makan dengan menggunakan piring kecil, membuat seseorang dengan secara tidak langsung akan mengurangi porsi makannya."
+                android:textColor="#5e5e5e"
+                android:textSize="15dp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+    </ScrollView>
 </LinearLayout>

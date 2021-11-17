@@ -23,6 +23,16 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menghitung Berat Badan Ideal"
+        android:layout_gravity="center"
+        android:textColor="#5e5e5e"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"/>
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="136dp"
@@ -34,6 +44,7 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="15dp"
         android:text="Berat Badan (kg)"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -43,6 +54,8 @@
         android:id="@+id/edbb"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         android:ems="10"
         android:textSize="9pt"
         android:inputType="textPersonName"
@@ -53,6 +66,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         android:text="Tinggi Badan (cm)"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="9pt" />
@@ -61,6 +76,8 @@
         android:id="@+id/edtinggi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         android:ems="10"
         android:textSize="9pt"
         android:inputType="textPersonName"
@@ -70,6 +87,8 @@
         android:id="@+id/bthitung"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         android:onClick="hitung"
         android:text="Hitung IMT"
         app:backgroundTint="#000000" />
@@ -78,6 +97,8 @@
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         android:layout_marginTop="15dp"
         android:text="Besar Indeks Massa Tubuh (IMT)"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -87,6 +108,8 @@
         android:id="@+id/edimt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         android:ems="10"
         android:textSize="9pt"
         android:inputType="textPersonName"
@@ -97,6 +120,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         android:text="Keterangan"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="9pt" />
@@ -105,6 +130,8 @@
         android:id="@+id/edket"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         android:ems="10"
         android:textSize="9pt"
         android:inputType="textPersonName"
