@@ -5,10 +5,14 @@ import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.Toast;
+import android.widget.TextView;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     public CardView card1, card2, card3, card4;
@@ -27,8 +31,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         card2.setOnClickListener(this);
         card3.setOnClickListener(this);
         card4.setOnClickListener(this);
-    }
 
+    }
 
     @Override
     public void onClick(View view) {
@@ -52,4 +56,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
         }
     }
+
 }

@@ -20,7 +20,7 @@ public class Spalsh_Screen extends AppCompatActivity {
                 }catch (InterruptedException e) {
                     e.printStackTrace();
                 }finally {
-                    startActivity(new Intent(Spalsh_Screen.this, MainActivity.class));
+                    startActivity(new Intent(Spalsh_Screen.this, LoginActivity.class));
                     finish();
                 }
             }

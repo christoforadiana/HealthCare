@@ -11,29 +11,35 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HealthCare">
         <activity
+            android:name=".RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
             android:name=".MenuMakananSehatActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".OlahragaActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".BeratBadanIdealActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".TipsDietActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".Spalsh_Screen"
             tools:ignore="IntentFilterExportedReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

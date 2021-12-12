@@ -9,6 +9,23 @@
     android:background="@drawable/bg_apps"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#3F51B5"
+        android:fontFamily="sans-serif-black"
+        android:text="HealthCare"
+        android:paddingLeft="15dp"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFFFFF"
+        android:textSize="12pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,7 +40,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="HealthCare"
+                android:text="WELCOME!"
                 android:textColor="#595959"
                 android:textSize="20dp"/>
 
@@ -41,13 +58,7 @@
                 android:layout_marginTop="12dp"
                 android:layout_marginLeft="105dp"
                 android:background="@color/colorPrimary" />
-
-            <ImageView
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:layout_alignParentRight="true"
-                android:src="@drawable/person" />
-        </RelativeLayout>
+</RelativeLayout>
 
     </LinearLayout>
 
@@ -280,6 +291,23 @@
 
         </androidx.cardview.widget.CardView>
 
-    </LinearLayout>
 
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:id="@+id/button_logout"
+        android:onClick="logout"
+        android:layout_gravity="center"
+        android:text="LOGOUT"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        />
 </LinearLayout>
