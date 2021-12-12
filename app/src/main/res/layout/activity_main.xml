@@ -136,9 +136,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
                     android:text="Berat Badan Ideal"
-                    android:textSize="13dp"
+                    android:textSize="15dp"
                     android:textColor="#5e5e5e"
                     android:textStyle="bold"/>
 
@@ -173,9 +172,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
                     android:text="Menu Makanan Sehat"
-                    android:textSize="13dp"
+                    android:textSize="15dp"
                     android:textColor="#5e5e5e"
                     android:textStyle="bold"/>
 
@@ -222,11 +220,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
                     android:text="Tips Diet"
-                    android:textSize="13dp"
                     android:textColor="#5e5e5e"
-                    android:textStyle="bold"/>
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
 
                 <ImageView
                     android:layout_width="120dp"
@@ -261,11 +258,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
                     android:text="Olahraga"
-                    android:textSize="13dp"
                     android:textColor="#5e5e5e"
-                    android:textStyle="bold"/>
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
 
                 <ImageView
                     android:layout_width="120dp"

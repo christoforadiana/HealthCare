@@ -35,14 +35,14 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
         android:layout_gravity="center"
         app:srcCompat="@drawable/tipsdiet" />
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="370dp"
+        android:layout_height="310dp"
         android:layout_margin="20dp"
         android:gravity="center">
 
@@ -55,7 +55,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Makan dengan perlahan"
+                android:text="Makan dengan Perlahan"
                 android:textColor="#5e5e5e"
                 android:textSize="16dp"
                 android:textStyle="bold" />
@@ -72,7 +72,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Mencatat makanan dan minuman yang diasup"
+                android:text="Mencatat Makanan dan Minuman yang Diasup"
                 android:textColor="#5e5e5e"
                 android:textSize="16dp"
                 android:textStyle="bold" />
@@ -89,7 +89,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Lengkapi diet sehat dengan banyak bergerak"
+                android:text="Lengkapi Diet Sehat dengan Banyak Bergerak"
                 android:textColor="#5e5e5e"
                 android:textSize="16dp"
                 android:textStyle="bold" />
@@ -217,7 +217,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="50dp"
-                android:text="Makan dengan menggunakan piring kecil, membuat seseorang dengan secara tidak langsung akan mengurangi porsi makannya."
+                android:text="Makan dengen menggunakan piring kecil, membuat seseorang dengan secara tidak langsung akan mengurangi porsi makannya."
                 android:textColor="#5e5e5e"
                 android:textSize="15dp"
                 android:layout_gravity="center"/>
