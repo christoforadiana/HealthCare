@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< HEAD
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/HealthCare/app/src/main/res/layout/activity_berat_badan_ideal.xml" value="0.33" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/HealthCare/app/src/main/res/layout/activity_login.xml" value="0.371875" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/HealthCare/app/src/main/res/layout/activity_main.xml" value="0.33" />
@@ -14,6 +15,13 @@
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/HealthCare/app/src/main/res/menu/logoutmenu.xml" value="0.371875" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/HealthCare/app/src/main/res/menu/main_menu.xml" value="0.371875" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/HealthCare/app/src/main/res/menu/menu_main.xml" value="0.371875" />
+=======
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/HealthCare/app/src/main/res/layout/activity_berat_badan_ideal.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/HealthCare/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/HealthCare/app/src/main/res/layout/activity_menu_makanan_sehat.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/HealthCare/app/src/main/res/layout/activity_spalsh__screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/HealthCare/app/src/main/res/layout/activity_tips_diet.xml" value="0.20416666666666666" />
+>>>>>>> 2c0a47f0e883bba716ae3a49ab271c61212c7460
       </map>
     </option>
   </component>
