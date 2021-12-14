@@ -11,13 +11,19 @@
     android:gravity="center"
     tools:context=".LoginActivity">
 
+    <ImageView
+        android:layout_width="145dp"
+        android:layout_height="149dp"
+        android:background="@drawable/logo" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="USER LOGIN"
         android:layout_margin="30dp"
-        android:textStyle="bold"
-        android:textSize="20sp"/>
+        android:text="USER LOGIN"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
     <EditText
         android:id="@+id/txUsername"
         android:drawableLeft="@drawable/ic_baseline_person_24"
