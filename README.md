@@ -18,6 +18,7 @@ Proyek Tugas Besar Teknologi dan Aplikasi Mobile "HealthCare"
 - Membuat desain logo pada aplikasi 
 - Mengedit video presentasi kelompok 
 - Melakukan screenshoot aplikasi (screen/useinterface)
+- demo
 
 
 

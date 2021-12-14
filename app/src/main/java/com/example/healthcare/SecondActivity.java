@@ -25,12 +25,14 @@ public class SecondActivity extends AppCompatActivity {
 
         firebaseAuth = FirebaseAuth.getInstance();
 
-        logout = (Button)findViewById(R.id.button_logout);
+        logout = (Button) findViewById(R.id.btnLogout);
 
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                firebaseAuth.signOut();
+                finish();
+                startActivity(new Intent(SecondActivity.this, LoginActivity.class));
             }
         });
     }
@@ -38,19 +40,19 @@ public class SecondActivity extends AppCompatActivity {
     private void Logout(){
         firebaseAuth.signOut();
         finish();
-        startActivity(new Intent(SecondActivity.this, MainActivity.class));
+        startActivity(new Intent(SecondActivity.this, LoginActivity.class));
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-        switch(item.getItemId()){
-            case R.id.button_logout:{
-                Logout();
-            }
-            case R.id.btnLogin:
-                startActivity(new Intent(SecondActivity.this, ContactsContract.Profile.class));
-        }
-        return super.onOptionsItemSelected(item);
-    }
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//
+//        switch(item.getItemId()){
+//            case R.id.button_logout:{
+//                Logout();
+//            }
+//            case R.id.btnLogin:
+//                startActivity(new Intent(SecondActivity.this, ContactsContract.Profile.class));
+//        }
+//        return super.onOptionsItemSelected(item);
+//    }
 }
